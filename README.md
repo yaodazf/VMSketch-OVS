@@ -1,3 +1,6 @@
+#VMSketch-CPU
+Our source code consists of five files, where File "GeneralHash.cpp" implements the functionality of the hash function, and File "kPersistent.cpp" implements the pseudocode from the paper. Specifically, the function HashTableInsert in File "kPersistent.cpp" implements the recording process for each element of flows, while the function EstimatedKSpread in File "kPersistent.cpp" implements the spread query functionality for any given flow.
+
 #VMSketch-OVS
 
 This repository includes a part of ovs, it cannot compile unless it is put in the ovs directory. This repository was made only for convenient, to prevent cloning the entire ovs repo and load them to the code editor. Compilation environment is ubuntu 16.04 and openvswitch-2.10.2. The VMSketch is integrated into the file datapath.c.
